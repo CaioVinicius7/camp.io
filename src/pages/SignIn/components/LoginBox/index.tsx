@@ -1,6 +1,7 @@
-import { Envelope, Eye, LockSimple, SignIn } from "phosphor-react";
+import { Envelope, LockSimple, SignIn } from "phosphor-react";
 
 import { Input } from "../../../../components/Input";
+import { Checkbox } from "../../../../components/Checkbox";
 
 import { LoginBoxContainer, Header, LoginForm } from "./styles";
 
@@ -31,6 +32,8 @@ export function LoginBox() {
 
 					<Input.Input placeholder="Digite sua senha" />
 				</Input.Root>
+
+				<Checkbox label="Lembre-me" />
 			</LoginForm>
 		</LoginBoxContainer>
 	);
