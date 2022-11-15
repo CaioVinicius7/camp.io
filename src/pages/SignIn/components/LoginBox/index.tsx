@@ -37,7 +37,7 @@ export function LoginBox() {
 						<LockSimple />
 					</Input.Icon>
 
-					<Input.Input placeholder="Digite sua senha" />
+					<Input.Input placeholder="Digite sua senha" type="password" />
 				</Input.Root>
 
 				<LoginFormFooter>
