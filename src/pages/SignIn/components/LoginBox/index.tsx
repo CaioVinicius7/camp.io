@@ -1,9 +1,19 @@
-import { LoginBoxContainer } from "./styles";
+import { SignIn } from "phosphor-react";
+
+import { LoginBoxContainer, Header, LoginForm } from "./styles";
 
 export function LoginBox() {
 	return (
 		<LoginBoxContainer>
-			<h1>Login Box</h1>
+			<Header>
+				<h2>
+					<SignIn size={24} /> Faça seu login
+				</h2>
+
+				<p>Entre com suas informações de cadastro.</p>
+			</Header>
+
+			<LoginForm></LoginForm>
 		</LoginBoxContainer>
 	);
 }
