@@ -7,7 +7,17 @@ export const SignInContainer = styled("main", {
 	gridTemplateColumns: "repeat(2, 1fr)"
 });
 
-export const ContentContainer = styled("aside", {});
+export const ContentContainer = styled("aside", {
+	display: "flex",
+	alignItems: "center",
+	justifyContent: "center",
+
+	img: {
+		position: "absolute",
+		left: "2.5rem",
+		top: "2.5rem"
+	}
+});
 
 export const SideImage = styled("img", {
 	width: "100%",
