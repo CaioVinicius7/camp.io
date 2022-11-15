@@ -33,6 +33,7 @@ export const {
 		sm: "(max-width: 640px)",
 		md: "(max-width: 768px)",
 		lg: "(max-width: 992px)",
-		xl: "(max-width: 1280px)"
+		xl: "(max-width: 1280px)",
+		xl2: "(max-width: 1650px)"
 	}
 });
