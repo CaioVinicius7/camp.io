@@ -1,4 +1,6 @@
-import { SignIn } from "phosphor-react";
+import { Envelope, Eye, LockSimple, SignIn } from "phosphor-react";
+
+import { Input } from "../../../../components/Input";
 
 import { LoginBoxContainer, Header, LoginForm } from "./styles";
 
@@ -13,7 +15,23 @@ export function LoginBox() {
 				<p>Entre com suas informações de cadastro.</p>
 			</Header>
 
-			<LoginForm></LoginForm>
+			<LoginForm>
+				<Input.Root label="E-mail">
+					<Input.Icon>
+						<Envelope />
+					</Input.Icon>
+
+					<Input.Input placeholder="Digite seu e-mail" />
+				</Input.Root>
+
+				<Input.Root label="Senha">
+					<Input.Icon>
+						<LockSimple />
+					</Input.Icon>
+
+					<Input.Input placeholder="Digite sua senha" />
+				</Input.Root>
+			</LoginForm>
 		</LoginBoxContainer>
 	);
 }

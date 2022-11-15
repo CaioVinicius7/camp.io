@@ -35,5 +35,9 @@ export const Header = styled("header", {
 });
 
 export const LoginForm = styled("form", {
-	marginTop: "1.75rem"
+	marginTop: "1.75rem",
+
+	display: "flex",
+	flexDirection: "column",
+	gap: "1.25rem"
 });
