@@ -41,3 +41,22 @@ export const LoginForm = styled("form", {
 	flexDirection: "column",
 	gap: "1.25rem"
 });
+
+export const LoginFormFooter = styled("footer", {
+	display: "flex",
+	alignItems: "center",
+	justifyContent: "space-between",
+
+	a: {
+		fontFamily: "Poppins",
+		fontSize: "0.875rem",
+		color: "$primary-color",
+		textDecoration: "none",
+
+		transition: "0.2s",
+
+		"&:hover": {
+			filter: "brightness(0.7)"
+		}
+	}
+});

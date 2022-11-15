@@ -3,7 +3,12 @@ import { Envelope, LockSimple, SignIn } from "phosphor-react";
 import { Input } from "../../../../components/Input";
 import { Checkbox } from "../../../../components/Checkbox";
 
-import { LoginBoxContainer, Header, LoginForm } from "./styles";
+import {
+	LoginBoxContainer,
+	Header,
+	LoginForm,
+	LoginFormFooter
+} from "./styles";
 
 export function LoginBox() {
 	return (
@@ -33,7 +38,11 @@ export function LoginBox() {
 					<Input.Input placeholder="Digite sua senha" />
 				</Input.Root>
 
-				<Checkbox label="Lembre-me" />
+				<LoginFormFooter>
+					<Checkbox label="Lembre-me" />
+
+					<a href="#">Esqueci minha senha</a>
+				</LoginFormFooter>
 			</LoginForm>
 		</LoginBoxContainer>
 	);
