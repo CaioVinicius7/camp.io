@@ -7,7 +7,9 @@ export const SignInContainer = styled("main", {
 	gridTemplateColumns: "repeat(2, 1fr)",
 
 	"@xl": {
-		gridTemplateColumns: "1fr"
+		display: "flex",
+		alignItems: "center",
+		justifyContent: "center"
 	}
 });
 
@@ -20,6 +22,14 @@ export const ContentContainer = styled("aside", {
 		position: "absolute",
 		left: "2.5rem",
 		top: "2.5rem"
+	},
+
+	"@sm": {
+		img: {
+			position: "absolute",
+			left: "1.5rem",
+			top: "2.5rem"
+		}
 	}
 });
 

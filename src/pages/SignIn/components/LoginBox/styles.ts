@@ -8,13 +8,13 @@ export const LoginBoxContainer = styled("div", {
 	background: "$form-background",
 	borderRadius: 4,
 
-	"@sm": {
-		margin: "0 2.5rem",
-		padding: "0.5rem 1rem"
-	},
-
 	"@xl2": {
 		padding: "2.5rem 4rem"
+	},
+
+	"@sm": {
+		margin: "0 1.5rem",
+		padding: "1.5rem 2rem"
 	}
 });
 
