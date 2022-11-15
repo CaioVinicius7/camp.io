@@ -14,7 +14,8 @@ export const LoginBoxContainer = styled("div", {
 
 	"@sm": {
 		margin: "0 1.5rem",
-		padding: "1.5rem 2rem"
+		padding: "1.5rem 2rem",
+		background: "transparent"
 	}
 });
 

@@ -15,7 +15,8 @@ export const SignInContainer = styled("main", {
 
 export const ContentContainer = styled("aside", {
 	display: "flex",
-	alignItems: "center",
+	flexDirection: "column",
+	alignItems: "flex-start",
 	justifyContent: "center",
 
 	img: {
@@ -25,10 +26,11 @@ export const ContentContainer = styled("aside", {
 	},
 
 	"@sm": {
+		position: "relative",
+
 		img: {
-			position: "absolute",
-			left: "1.5rem",
-			top: "2.5rem"
+			top: "-2rem",
+			left: "3.5rem"
 		}
 	}
 });
