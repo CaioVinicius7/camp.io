@@ -32,7 +32,7 @@ export const CheckboxRoot = styled(Checkbox.Root, {
 });
 
 export const CheckboxIndicator = styled(Checkbox.Indicator, {
-	color: "#473404",
+	color: "$primary-color-text",
 	fontSize: "1.25rem",
 	lineHeight: 0
 });

@@ -44,8 +44,10 @@ export const LoginForm = styled("form", {
 
 export const LoginFormFooter = styled("footer", {
 	display: "flex",
+	flexWrap: "wrap",
 	alignItems: "center",
 	justifyContent: "space-between",
+	gap: "1.25rem",
 
 	a: {
 		fontFamily: "Poppins",

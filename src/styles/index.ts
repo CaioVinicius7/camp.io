@@ -19,6 +19,7 @@ export const {
 			background: "#191816",
 			"form-background": "#24221f",
 			"primary-color": "#ffc632",
+			"primary-color-text": "#473404",
 			"border-color": "#868686"
 		},
 		fontSizes: {
