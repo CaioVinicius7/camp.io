@@ -62,3 +62,28 @@ export const LoginFormFooter = styled("footer", {
 		}
 	}
 });
+
+export const LoginBoxFooter = styled("footer", {
+	marginTop: "1rem",
+
+	textAlign: "center",
+
+	p: {
+		margin: "0 auto",
+		width: "fit-content",
+
+		fontFamily: "Poppins",
+		color: "$primary-color",
+
+		cursor: "pointer",
+		transition: "0.2s",
+
+		span: {
+			fontWeight: 600
+		},
+
+		"&:hover": {
+			textDecoration: "underline"
+		}
+	}
+});

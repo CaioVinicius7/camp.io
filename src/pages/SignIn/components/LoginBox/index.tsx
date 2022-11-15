@@ -8,7 +8,8 @@ import {
 	LoginBoxContainer,
 	Header,
 	LoginForm,
-	LoginFormFooter
+	LoginFormFooter,
+	LoginBoxFooter
 } from "./styles";
 
 export function LoginBox() {
@@ -47,6 +48,12 @@ export function LoginBox() {
 					<Button title="Entrar" type="submit" />
 				</LoginFormFooter>
 			</LoginForm>
+
+			<LoginBoxFooter>
+				<p>
+					Não tem uma conta? <span> Registre-se </span>
+				</p>
+			</LoginBoxFooter>
 		</LoginBoxContainer>
 	);
 }
